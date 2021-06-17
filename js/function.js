@@ -1,17 +1,17 @@
-// Function Declaration
-function sum(a, b) {
-    return a + b;
-}
-
-// Function Expression
-const sum2 = function(a, b) {
-    return a + b;
-}
-
-// Function Expression Arrow function
-const sum3 = (a, b) => {
-    return a + b
-}
+// // Function Declaration
+// function sum(a, b) {
+//     return a + b;
+// }
+//
+// // Function Expression
+// const sum2 = function(a, b) {
+//     return a + b;
+// }
+//
+// // Function Expression Arrow function
+// const sum3 = (a, b) => {
+//     return a + b
+// }
 
 
 // Основное отличие между ними: функции, объявленные
@@ -26,8 +26,23 @@ const sum3 = (a, b) => {
 // }
 
 
-// sayHi("Вася"); // ошибка!
-
 // const sayHi = function(name) {
 //     alert( "Привет, " + name );
 // }
+//
+// sayHi("Вася"); // ошибка!
+
+
+// sayHi('Ruslan!');
+
+
+
+// const obj = {
+//     name: 'Vova',
+//     sayHi: function (arg) {
+//         console.log(arg)
+//     }
+// }
+//
+// // obj.sayHi('Ruslan!');
+// obj['sayHi']('Ruslan!');
